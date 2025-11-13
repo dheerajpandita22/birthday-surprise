@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Happy Birthday 🎂</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="confetti"></div>
+
+  <header class="topbar">
+    <h1>Happy Birthday!</h1>
+    <div class="controls">
+      <button id="musicBtn" aria-label="Toggle music">🎵 Play</button>
+      <button id="revealBtn" aria-label="Reveal message">🎁 Reveal</button>
+    </div>
+  </header>
+
+  <main class="card">
+    <section class="hero">
+      <div class="cake">
+        <div class="plate"></div>
+        <div class="layer layer3"></div>
+        <div class="layer layer2"></div>
+        <div class="layer layer1"></div>
+        <div class="candle">
+          <div class="flame"></div>
+        </div>
+      </div>
+      <p class="subtitle">Make a wish and tap the flame ✨</p>
+    </section>
+
+    <section class="message" aria-live="polite">
+      <h2>For you, on your special day</h2>
+      <p class="line">I’m so grateful for the light you bring.</p>
+      <p class="line">Today is all about celebrating you.</p>
+      <p class="line">May your year be sweet, bright, and full of surprises.</p>
+      <p class="signature">— From Dheeraj</p>
+    </section>
+
+    <footer class="footer">
+      <p>Made with HTML, CSS & JS · Spread joy 💖</p>
+    </footer>
+  </main>
+
+  <audio id="music" src="assets/music.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
